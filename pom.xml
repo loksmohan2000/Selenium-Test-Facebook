@@ -82,7 +82,9 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+        <!--added below plugin to create dependency -->
         <plugin>
+			
 	      <artifactId>maven-assembly-plugin</artifactId>
 	      <configuration>
 	        <archive>
