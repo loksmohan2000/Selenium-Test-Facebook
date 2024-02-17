@@ -23,7 +23,9 @@ public class App
        
        
        ChromeOptions chromeOptions = new ChromeOptions();
-    
+       chromeOptions.addArguments("--headless");
+     //  chromeOptions.addArguments("--remote-allow-origins=*");
+
     
     WebDriver  driver = new ChromeDriver(chromeOptions);
     
